@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#f48b8a</color>
+
+    <!-- common -->
+    <color name="white">#fff</color>
+    <color name="black">#000</color>
+    <color name="green_light">#DBFFD5</color>
+    <color name="text_shadow">#7F000000</color>
+    <color name="text_shadow_white">#FFFFFF</color>
+    <color name="coral">#f48b8a</color>
+    <color name="selection">#FFEDBC</color>
+    <color name="list">#ebeff4</color>
+</resources>

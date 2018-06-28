@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/list">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginLeft="32dp"
+            android:layout_marginRight="32dp"
+            android:layout_marginTop="16dp"
+            android:paddingBottom="32dp">
+
+            <TextView
+                android:id="@+id/mName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:textStyle="normal|bold"
+                android:textColor="@color/coral"
+                android:text="Name" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="32px"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/mName"
+                android:textSize="15dp"
+                android:textStyle="normal|bold"
+                android:text="Address:" />
+
+            <TextView
+                android:id="@+id/mAddress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/textView6"
+                android:layout_alignBottom="@+id/textView6"
+                android:layout_marginStart="17dp"
+                android:layout_marginTop="32px"
+                android:layout_toEndOf="@+id/textView6"
+                android:text="Textview" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="32px"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/mAddress"
+                android:textSize="15dp"
+                android:textStyle="normal|bold"
+                android:text="Produce:" />
+
+            <TextView
+                android:id="@+id/mProduce"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/mAddress"
+                android:layout_below="@+id/mAddress"
+                android:layout_marginTop="32px"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/mProduce"
+                android:textSize="15dp"
+                android:layout_marginTop="32px"
+                android:textStyle="normal|bold"
+                android:text="Schedule:" />
+
+            <TextView
+                android:id="@+id/mSchedule"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/mProduce"
+                android:layout_below="@+id/mProduce"
+                android:layout_marginTop="32px"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="32px"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/mSchedule"
+                android:textSize="15dp"
+                android:textStyle="normal|bold"
+                android:text="Distance:" />
+
+            <TextView
+                android:id="@+id/mDist"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/mProduce"
+                android:layout_marginTop="32px"
+                android:layout_below="@+id/mSchedule"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="32px"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/mDist"
+                android:textSize="15dp"
+                android:textStyle="normal|bold"
+                android:text="Link:" />
+
+            <TextView
+                android:id="@+id/mLink"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/textView10"
+                android:layout_alignBottom="@+id/textView10"
+                android:layout_alignStart="@+id/mDist"
+                android:autoLink="web"
+                android:layout_marginTop="32px"
+                android:text="TextView" />
+
+            <Button
+                android:id="@+id/details_show_map"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/mLink"
+                android:layout_marginTop="32dp"
+                android:paddingLeft="32dp"
+                android:paddingRight="32dp"
+                android:text="Map"
+                android:background="@drawable/buttonroundmap"
+                android:textColor="#fff"
+                android:layout_centerHorizontal="false"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textSize="15dp"
+                android:textStyle="normal|bold" />
+
+            <Button
+                android:id="@+id/details_bookmark"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:layout_gravity="center"
+                android:background="@drawable/buttonround"
+                android:gravity="center"
+                android:paddingLeft="0dp"
+                android:paddingRight="0dp"
+                android:text="★"
+                android:textColor="#fff"
+                android:textSize="15dp"
+                android:textStyle="normal|bold" />
+
+        </RelativeLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

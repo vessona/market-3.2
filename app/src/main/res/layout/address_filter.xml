@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+
+    <include
+        layout="@layout/filter"/>
+
+    <Button
+        android:id="@+id/show_map_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="32dp"
+        android:layout_marginTop="290dp"
+        android:background="@drawable/buttonroundmap"
+        android:paddingLeft="32dp"
+        android:paddingRight="32dp"
+        android:text="Map"
+        android:textAllCaps="true"
+        android:textColor="#fff"
+        android:textSize="15dp"
+        android:textStyle="normal|bold"
+        android:visibility="gone"
+        tools:visibility="visible" />
+
+</RelativeLayout>

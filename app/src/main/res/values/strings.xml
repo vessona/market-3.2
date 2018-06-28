@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">market</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="common_show">show</string>
+    <string name="bookmarks_placeholder">You can add market to bookmarks\nfrom details page</string>
+    <string name="bookmarks_all">Select All</string>
+    <string name="bookmarks_delete">Delete</string>
+</resources>
